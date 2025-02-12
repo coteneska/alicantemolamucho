@@ -155,6 +155,8 @@ sup {
   border-radius: 5px;
 }
 
+
+
 /* Hero Section */
 .hero-section {
   width: 100%;
@@ -998,10 +1000,12 @@ address {
 }
 
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Se adapta automáticamente */
     gap: 15px;
+    max-width: 1000px; /* Para evitar que se expanda demasiado */
+    margin: 0 auto; /* Centra la galería */
+    padding: 20px;
 }
 
 .gallery-item {
@@ -1010,7 +1014,6 @@ address {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
-    width: 200px;
     transition: transform 0.3s ease-in-out;
 }
 
