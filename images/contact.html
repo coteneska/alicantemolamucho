@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/favicon.ico" type="image/png">
+  <title>Reserva apartamento turistico en Alicante</title>
+  <meta name="description" content="Reserva tu apartamento en Alicante">
+  <meta name="keywords" content="alquiler vacacional, apartamento en alicante, alquiler turistico, vacaciones en Alicante, donde alojarse en Alicante, alquiler vacacional para teletrabajar, alquiler para estudiantes, apartamento cerca del mar">
+
+</head>
+
+<body>
+  <a href="#main-content" class="skip-to-main">Skip to Main Content</a>
+  <!-- Header Section -->
+  <header>
+    <nav class="navbar">
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="apartamento-alicante.html">Como funciona</a></li>
+            <li><a href="que-ver-en-alicante.html">Guia</a></li>
+          <li><a href="#" class="active">Contacta</a></li>
+        </ul>
+    </nav>
+  </header>
+  <main id="main-content">
+    <!-- Contact Header Section -->
+    <section class="page-header">
+      <h1>Contacto-Ayuda</h1>
+      <p>Nuestro lema "Estamos aquí para ayudaros, no dudéis en pedir la ayuda que necesitéis o hacer las preguntas que necesitéis"</p>
+    </section>
+
+    <!-- Contact Section Wrapper -->
+    
+      <section class="contact-info">
+        <h2>Información contacto Alicante Mola Mucho</h2>
+        <address>
+          <i class="fa-regular fa-envelope"></i>
+            <p>Email: <a href="mailto:coteneska2@gmail.com">info@alicantemolamucho.es</a></p>
+          <i class="fa-solid fa-phone"></i>
+            <p>Phone: <a href="tel:+34622252082">+34 622 25 20 82</a></p>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-telegram"></i>
+          <p>También whassap y telegram</p>
+        </address>
+      </section>
+      
+        <section class="contact-wrapper">
+      <div class="contact-text">
+        <h2>¿Os ha surgido una urgencia en Alicante o en España en general?</h2>
+        <p>Este es el teléfono de emergencias tanto médicas como de seguridad.</p>
+          <section class="contact-info">
+        <address>
+            <i class="fa-solid fa-phone"></i>
+            <p>Teléfono gratuito: <a href="tel:112">112</a></p>
+        </address>
+        
+      </section>
+      </div>
+      <!-- Form section -->
+      <section class="form-container">
+        <h2 id="form-title">Formulario de contacto</h2>
+        <form action="enviar.php" method="POST" aria-labelledby="form-title">
+
+          <!-- Fieldset for Personal Data -->
+          <fieldset>
+            <legend>Datos personales</legend>
+
+            <div class="form-row">
+              <label for="name">Nombre<sup>*</sup></label>
+              <input type="text" id="name" name="name" required aria-required="true" placeholder="Enter your full name">
+            </div>
+
+            <div class="form-row">
+              <label for="email">Email<sup>*</sup></label>
+              <input type="email" id="email" name="email" required aria-required="true"
+                placeholder="e.g., user@example.com">
+            </div>
+
+            <div class="form-row phone-group">
+              <div>
+                <label for="country-code">Country Code<sup>*</sup></label>
+                <select id="country-code" name="country-code" required aria-required="true">
+                  <option value="" disabled selected>País</option>
+                  <optgroup label="Europe">
+                    <option value="+33">France (+33)</option>
+                    <option value="+49">Germany (+49)</option>
+                    <option value="+34">Spain (+34)</option>
+                    <option value="+44">UK (+44)</option>
+                      <option value="+48">Polonia (+48)</option>
+                      <option value="+380">Ucrania (+48)</option>
+                      <option value="+39">Italy (+)</option>
+                  </optgroup>
+                  <optgroup label="America">
+                  </optgroup>
+                </select>
+              </div>
+
+              <div>
+                <label for="phone">Teléfono<sup>*</sup></label>
+                <input type="tel" id="phone" name="phone" required aria-required="true"
+                  placeholder="e.g., +1 555 123 4567">
+              </div>
+            </div>
+          </fieldset>
+
+          <!-- Fieldset for Other Information -->
+          <fieldset>
+            <legend>Información extra</legend>
+
+            <div class="form-row">
+              <label for="subject">Asunto</label>
+              <input type="text" id="subject" name="subject" placeholder="Brief subject (optional)">
+            </div>
+
+            <div class="form-row">
+              <label for="message">Mensaje<sup>*</sup></label>
+              <textarea id="message" name="message" rows="5" required aria-required="true"
+                placeholder="Write your message here"></textarea>
+            </div>
+          </fieldset>
+
+          <!-- Consent -->
+          <div class="form-row checkbox">
+            <input type="checkbox" id="accept" name="accept" required aria-required="true">
+            <label for="accept">I accept the <a href="#" aria-label="Privacy Policy">privacy policy</a></label>
+          </div>
+
+          <!-- Submit Button -->
+          <button type="submit" class="submit-button" aria-label="Send Message">Enviar</button>
+        </form>
+      </section>
+    </section>
+
+    <!-- Botón de WhatsApp flotante -->
+    <a href="https://wa.me/1234567890" class="whatsapp-icon" target="_blank"  aria-label="WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </main>
+  <footer id="footer">
+    <div class="container">
+      <section class="footer-main">
+        <div class="footer-sections">
+          <h2>Sustainable Future</h2>
+
+          <!-- Menú Principal -->
+          <div class="footer-menu">
+            <h3 class="footer-heading">Menu</h3>
+            <nav>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="highlights.html">Highlights</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <!-- Enlaces Rápidos -->
+          <div class="quick-links">
+            <h3 class="footer-heading">Quick Links</h3>
+            <nav>
+              <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">FAQs</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <!-- Información de Contacto -->
+          <div class="footer-contact">
+            <h3 class="footer-heading">Contact</h3>
+            <address>
+              <ul>
+                <li><i class="fas fa-phone"></i><a href="tel:+11234567890" aria-label="Phone"><span>+1 (123) 456-7890</span> </a>
+                </li>
+                <li><i class="fas fa-envelope"></i><a href="mailto:info@sustainablefuture.org"
+                    aria-label="Email"><span>info@sustainablefuture.org</span></a>
+                </li>
+                <li><i class="fas fa-clock"></i>
+                  <div><span>Monday - Saturday </span><br><span>9:00 AM - 5:00 PM</span></div>
+                </li>
+              </ul>
+            </address>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Sección de Redes Sociales y Derechos -->
+      <div class="footer-bottom">
+        <nav aria-label="Enlaces a redes sociales">
+          <ul class="social-icons">
+            <li><a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#" class="social-icon" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a></li>
+            <li><a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+          </ul>
+        </nav>
+
+        <p>&copy; 2024 Sustainable Future. All images come from <a href="https://www.freepik.com/" class="underline" target="_blank">freepik</a> with a <abbr title="Creative Commons Zero">CC0</abbr> license</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
