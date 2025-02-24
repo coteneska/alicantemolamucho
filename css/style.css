@@ -253,7 +253,12 @@ sup {
   border-radius: 8px;
   box-shadow: var(--light-shadow);
   text-align: center;
-    text-decoration: none;
+}
+
+.highlight-link {
+    text-decoration: none; /* Quita el subrayado del enlace */
+    color: inherit; /* Mantiene el color del texto original */
+    display: block; /* Hace que el enlace cubra toda el área del artículo */
 }
 
 .highlight-card img {
